@@ -1,0 +1,87 @@
+/* Cài đặt tổng quát */
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  
+  /* Khung CV căn giữa, khổ giấy A4 */
+  .cv-container {
+      width: 210mm; /* Khổ A4 chiều rộng */
+      min-height: 297mm; /* Khổ A4 chiều cao */
+      padding: 20mm; /* Lề cho nội dung */
+      background-color: white;
+      border: 2px solid #333;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+      margin: 20px auto;
+      overflow: auto;
+  }
+  
+  /* Tiêu đề và thông tin cá nhân */
+  header {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #007bff;
+  }
+  
+  header p {
+      margin: 5px 0;
+  }
+  
+  /* Định dạng cho các section */
+  section {
+      margin: 20px 0;
+  }
+  
+  h2 {
+      color: #007bff;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+  }
+  
+  h3 {
+      color: #333;
+  }
+  
+  ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  li {
+      margin: 5px 0;
+  }
+  
+  .project {
+      margin-bottom: 15px;
+  }
+  
+  a {
+      color: #007bff;
+      text-decoration: none;
+  }
+  
+  a:hover {
+      text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+      text-align: center;
+      margin-top: 20px;
+  }
+  
+  footer a {
+      color: #007bff;
+  }
+  
